@@ -1,5 +1,4 @@
-# FirstRepo
-Pair Assignment 1
+# Pair Assignment 1
 ##################################
 Hello world,
 This is the working repository for

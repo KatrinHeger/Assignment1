@@ -33,6 +33,18 @@ data(trees)
 # statistics. More to follow!
 # List variable names (girth, height & volume)
 names(trees)
+# Before we start the analysis, we check if there are
+# any values missing
+is.na(women)
+# To get an overview of the structure of the data set
+# we are looking at, we first use the command 'str'
+str(women)
+# Create a labeled table to get an overview of all observations
+library(Hmisc)
+label(trees[[1]]) <- "Girth"
+label(trees[[2]]) <- "Height"
+label(trees[[3]]) <- "Volume"
+View(trees)
 # List min., 1st qu., median, mean, 3rd qu. and max.
 summary(trees)
 # Range of girth

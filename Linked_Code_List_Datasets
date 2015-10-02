@@ -1,4 +1,4 @@
 # This code is supposed to show that we can create
-# a create a dynamic link between to files on Github
-# (given the working directory is set up correctly)
+# a dynamic link between two files on Github
+# given the working directory is set up correctly
 data()

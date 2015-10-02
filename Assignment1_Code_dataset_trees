@@ -20,7 +20,7 @@
 
 # Run a dynamically linked file to list all availabale internal
 # data sets of R Studio
-# (given the working directory is set up correctly)
+# given the working directory is set up correctly
 source("Linked_Code_List_Datasets")
 
 # Load data set

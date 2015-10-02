@@ -1,0 +1,63 @@
+##################################################################
+# MPP-E1180: Intro. to Collab. Social Science Data Analyis       #
+# September 2015                                                 #
+# Pair Assignment 1                                              #
+# Katrin Heger & Benedikt Abendroth                              #
+# Tasks: (1) Access two core R data sets                         #
+#        (2) Illustrate the data's distribution with descriptive #
+#            statistics                                          #
+#        (3) Link two files dynamically                          #
+#        (4) Make a pull request (not found in this code)        #
+# The following code will analyze data set ??? of R Studio       #
+# concerning the tasks as mentioned above.                       #
+##################################################################
+
+# Part 2: Second data set analysis
+
+# The following code was produced with one of
+# the internal data sets of R Studio in order
+# to be easily reproducible.
+
+# Some basic functions in R Studio to get familiar:
+# List all internal data sets
+data()
+# Load data set
+data(women)
+# View information about the chosen data set
+?women
+# Information about the data set:
+# This data set gives the average heights
+# and weights for American women aged 30–39.
+
+# In the following we perform some basic descriptive
+# statistics. More to follow!
+# List variable names (height & weight)
+names(women)
+# List min., 1st qu., median, mean, 3rd qu. and max.
+summary(women)
+# Create histrogram showing height of women
+hist(women$height,
+     main='Height of observed Women',
+     xlab='In inches')
+# Create histogram showing weight of women
+hist(women$weight,
+     main='Weight of observed Women',
+     xlab='In lbs')
+# Create boxplot for relation between height and weight
+plot(women$height, women$weight,
+     main='Height and weight of observed women',
+     xlab='In inches',
+     ylab='In lbs')
+
+
+# Comment from the authors:
+# As this is our first experience in coding,
+# we are happy to receive feedback from
+# anyone out there!
+
+#################################################################
+# Citation of used software:                                    #
+# R Core Team (2015). R: A language and environment for         #
+# statistical computing. R Foundation for Statistical Computing,#
+# Vienna, Austria. URL https://www.R-project.org/.              #
+#################################################################

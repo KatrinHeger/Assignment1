@@ -33,6 +33,17 @@ data(women)
 # statistics. More to follow!
 # List variable names (height & weight)
 names(women)
+# Before we start the analysis, we check if there are
+# any values missing
+is.na(women)
+# To get an overview of the structure of the data set
+# we are looking at, we first use the command 'str'
+str(women)
+# Create a labeled table to get an overview of all observations
+library(Hmisc)
+label(women[[1]]) <- "Woman's Height"
+label(women[[2]]) <- "Woman's Weight"
+View(women)
 # List min., 1st qu., median, mean, 3rd qu. and max.
 summary(women)
 # Create histrogram showing height of women

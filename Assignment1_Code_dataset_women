@@ -18,48 +18,57 @@
 # the internal data sets of R Studio in order
 # to be easily reproducible.
 
-# Some basic functions in R Studio to get familiar:
 # List all internal data sets
 data()
+
 # Load data set
 data(women)
+
 # View information about the chosen data set
 ?women
+
 # Information about the data set:
 # This data set gives the average heights
 # and weights for American women aged 30–39.
 
 # In the following we perform some basic descriptive
 # statistics. More to follow!
+
 # List variable names (height & weight)
 names(women)
+
 # Before we start the analysis, we check if there are
 # any values missing
 is.na(women)
+
 # To get an overview of the structure of the data set
 # we are looking at, we first use the command 'str'
 str(women)
+
 # Create a labeled table to get an overview of all observations
 library(Hmisc)
 label(women[[1]]) <- "Woman's Height"
 label(women[[2]]) <- "Woman's Weight"
 View(women)
+
 # List min., 1st qu., median, mean, 3rd qu. and max.
 summary(women)
+
 # Create histrogram showing height of women
 hist(women$height,
      main='Height of observed Women',
      xlab='In inches')
+     
 # Create histogram showing weight of women
 hist(women$weight,
      main='Weight of observed Women',
      xlab='In lbs')
+     
 # Create boxplot for relation between height and weight
 plot(women$height, women$weight,
      main='Height and weight of observed women',
      xlab='In inches',
      ylab='In lbs')
-
 
 # Comment from the authors:
 # As this is our first experience in coding,

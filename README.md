@@ -13,7 +13,7 @@ For our first assignment, the tasks were as follows:
 
 Concerning (1) and (2), we chose two internal data sets of R Studio, namely "trees", describing measurements of the girth, height and volume of timber in 31 felled black cherry trees, as well as "women", describing the average heights and weights for women aged 30–39 in the USA. To do so, we wrote code to describe the data set itself, such as its structure and a list of all observations, as well as the creation of several histograms and boxplots describing the data sets. In addition, we also tested for some correlations.
 
-Concerning (4), we created a pull request to another class mate to add the citation of the R software being used.
+Concerning (4), we created a pull request to another class mate to add the citation of the R software being used, which can be found under the following link: https://github.com/bjoernboening/Collaborative-Social-Science-Data-Assign-01/pull/1
 
 We are happy to receive any feedback and invite everyone to make pull requests to our code!
 

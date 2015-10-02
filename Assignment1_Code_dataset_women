@@ -18,8 +18,8 @@
 # the internal data sets of R Studio in order
 # to be easily reproducible.
 
-# List all internal data sets
-data()
+# Run a dynamically linked file to list all availabale internal data sets of R Studio
+source("Linked_Code_List_Datasets")
 
 # Load data set
 data(women)

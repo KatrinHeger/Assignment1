@@ -18,7 +18,6 @@
 # the internal data sets of R Studio in order
 # to be easily reproducible.
 
-# Some basic functions in R Studio to get familiar:
 # List all internal data sets
 data()
 # Load data set
